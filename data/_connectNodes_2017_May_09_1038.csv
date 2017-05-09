@@ -1,0 +1,7 @@
+n2col,n4col,n3col,r4,n1col,r1,r2,rs,r3,re,n5col,n1,n2,n3,n4,n5,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,key_resp_4.keys,key_resp_4.rt,resp1.keys,resp1.rt,corrAnsw1,corrAnsw2,corrAnsw3,corrAnsw4,date,frameRate,expName,session,participant,
+,,,,,,,,,,,,,,,,,,,,space,11.9942548275,,,,,,,,,2017_May_09_1038,59.8730395285,connectNodes,001,,
+,,,,,,,,,,,,,,,,,,,,,,space,3.48377108574,,,,,,,2017_May_09_1038,59.8730395285,connectNodes,001,,
+blue,red,green,d,blue,a,b,LOC21,c,LOC9,red,LOC22,LOC23,LOC24,LOC19,LOC14,0,0,0,0,,,,,"['a', 'a', 'a', 'a']","[8.20189094543457, 10.170232057571411, 10.589253902435303, 13.76891803741455]",1,0,0,0,2017_May_09_1038,59.8730395285,connectNodes,001,,
+yellow,green,blue,d,red,a,b,LOC21,c,LOC3,red,LOC16,LOC11,LOC12,LOC13,LOC8,0,1,1,1,,,,,"['a', 'a', 'a', 'a']","[2.117633104324341, 2.4547340869903564, 2.9050350189208984, 3.36755108833313]",1,0,0,0,2017_May_09_1038,59.8730395285,connectNodes,001,,
+red,blue,yellow,d,red,a,b,LOC22,c,LOC10,blue,LOC17,LOC12,LOC7,LOC8,LOC9,0,2,2,2,,,,,"['a', 'a', 'a', 'a']","[5.555312871932983, 6.12189507484436, 7.718122959136963, 8.134670972824097]",1,0,0,0,2017_May_09_1038,59.8730395285,connectNodes,001,,
+yellow,yellow,green,None,green,None,None,LOC16,None,LOC10,blue,LOC17,LOC12,LOC13,LOC8,LOC9,0,3,3,3,,,,,"['a', 'a', 'a', 'a']","[0.5541110038757324, 0.9171860218048096, 1.3373510837554932, 2.0375730991363525]",0,0,0,0,2017_May_09_1038,59.8730395285,connectNodes,001,,

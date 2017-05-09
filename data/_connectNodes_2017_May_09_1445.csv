@@ -1,0 +1,8 @@
+n2col,n4col,n3col,corrAns,r4,n1col,r1,r2,rs,r3,re,n5col,n1,n2,n3,n4,n5,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,key_resp_4.keys,key_resp_4.rt,resp1.keys,resp1.rt,corrAnsw1,corrAnsw2,corrAnsw3,corrAnsw4,key_resp_3.keys,key_resp_3.corr,key_resp_3.rt,date,frameRate,expName,session,participant,
+,,,,,,,,,,,,,,,,,,,,,space,7.30130910873,,,,,,,,,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+,,,,,,,,,,,,,,,,,,,,,,,space,0.737144947052,,,,,,,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+blue,red,green,a,d,blue,a,b,LOC21,c,LOC9,red,LOC22,LOC23,LOC24,LOC19,LOC14,0,0,0,0,,,,,"['a', 'b', 'c', 'd']","[11.218618154525757, 13.205524206161499, 14.652278184890747, 15.622501134872437]",1,1,1,1,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+yellow,green,blue,b,d,red,a,b,LOC21,c,LOC3,red,LOC16,LOC11,LOC12,LOC13,LOC8,0,1,1,1,,,,,"['d', 'd', 'd', 'd']","[1.0210211277008057, 1.2212879657745361, 1.420943021774292, 1.9044339656829834]",0,0,0,1,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+red,blue,yellow,c,d,red,a,b,LOC22,c,LOC10,blue,LOC17,LOC12,LOC7,LOC8,LOC9,0,2,2,2,,,,,"['d', 'd', 'd', 'd']","[0.35405707359313965, 0.6709499359130859, 1.000520944595337, 1.3540699481964111]",0,0,0,1,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+yellow,yellow,green,d,d,green,a,b,LOC16,c,LOC10,blue,LOC17,LOC12,LOC13,LOC8,LOC9,0,3,3,3,,,,,"['d', 'd', 'd', 'd']","[0.42061305046081543, 0.7041220664978027, 1.0208539962768555, 1.3368759155273438]",0,0,0,1,,,,2017_May_09_1445,60.1446004273,connectNodes,001,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,0,7.67179894447,2017_May_09_1445,60.1446004273,connectNodes,001,,

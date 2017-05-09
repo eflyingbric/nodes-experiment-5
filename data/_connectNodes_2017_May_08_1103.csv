@@ -1,0 +1,4 @@
+r4,n1col,n2col,n4col,r2,rs,r3,n3col,re,n1,n2,n3,n4,r1,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,resp1.keys,resp1.rt,corrAnsw1,corrAnsw2,corrAnsw3,corrAnsw4,date,frameRate,expName,session,participant,
+d,red,red,blue,b,LOC11,c,red,LOC20,LOC12,LOC13,LOC18,LOC19,a,0,0,0,1,"['a', 'a', 'a', 'a']","[9.398885011672974, 10.272202968597412, 11.289320945739746, 14.819477081298828]",1,0,0,0,2017_May_08_1103,60.2051189302,connectNodes,001,,
+d,green,green,yellow,b,LOC21,c,blue,LOC8,LOC22,LOC23,LOC18,LOC13,a,0,1,1,2,"['a', 'a', 'a', 'b']","[0.8542940616607666, 1.354628086090088, 1.8043360710144043, 3.4881629943847656]",1,0,0,0,2017_May_08_1103,60.2051189302,connectNodes,001,,
+d,red,blue,yellow,b,LOC5,c,blue,LOC12,LOC10,LOC15,LOC14,LOC13,a,0,2,2,0,"['b', 'b', 'b', 'b']","[0.653839111328125, 1.0042991638183594, 1.2204911708831787, 1.6708030700683594]",0,1,0,0,2017_May_08_1103,60.2051189302,connectNodes,001,,

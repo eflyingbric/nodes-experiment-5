@@ -1,0 +1,5 @@
+r4,n1col,n2col,n4col,r2,rs,r3,n3col,re,n1,n2,n3,n4,r1,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_res2.keys,key_res2.rt,resp1.keys,resp1.rt,corrAnsw1,corrAnsw2,corrAnsw3,corrAnsw4,date,frameRate,expName,session,participant,
+,,,,,,,,,,,,,,,,,,space,1.44989705086,,,,,,,2017_May_08_1357,59.9987697854,connectNodes,001,,
+d,green,green,yellow,b,LOC21,c,blue,LOC8,LOC22,LOC23,LOC18,LOC13,a,0,0,0,2,,,"['a', 'a', 'a', 'a']","[3.184440851211548, 3.7511348724365234, 4.204334020614624, 63.61081004142761]",1,0,0,0,2017_May_08_1357,59.9987697854,connectNodes,001,,
+d,red,red,blue,b,LOC11,c,red,LOC20,LOC12,LOC13,LOC18,LOC19,a,0,1,1,1,,,"['a', 'a', 'a', 'a']","[0.9038870334625244, 1.2377281188964844, 1.5878610610961914, 2.0886590480804443]",1,0,0,0,2017_May_08_1357,59.9987697854,connectNodes,001,,
+d,red,blue,yellow,b,LOC5,c,blue,LOC12,LOC10,LOC15,LOC14,LOC13,a,0,2,2,0,,,"['a', 'a', 'a', 'a']","[0.4176769256591797, 0.7877228260040283, 1.1543748378753662, 1.5711498260498047]",1,0,0,0,2017_May_08_1357,59.9987697854,connectNodes,001,,

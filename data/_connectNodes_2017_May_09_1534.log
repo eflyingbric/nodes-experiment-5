@@ -1,0 +1,507 @@
+7.0499 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color='black', colorSpace='named', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x113227550>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0500 	EXP 	window1: recordFrameIntervals = False
+7.2151 	EXP 	window1: recordFrameIntervals = True
+7.3987 	EXP 	window1: recordFrameIntervals = False
+7.5507 	EXP 	Created welcome = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=100, italic=False, name='welcome', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Welcome!', units='pix', win=Window(...), wrapWidth=500)
+7.5819 	EXP 	Created instruct = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50, italic=False, name='instruct', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='pix', win=Window(...), wrapWidth=500)
+7.6703 	EXP 	Created rob0 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='robot1.png', interpolate=True, mask=None, maskParams=None, name='rob0', opacity=1.0, ori=0.0, pos=array([-250., -100.]), size=array([ 200.,  200.]), texRes=128, units='pix', win=Window(...))
+7.6856 	EXP 	Created robb = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='robot1.png', interpolate=True, mask=None, maskParams=None, name='robb', opacity=1.0, ori=0.0, pos=array([ 250., -100.]), size=array([ 200.,  200.]), texRes=128, units='pix', win=Window(...))
+7.7005 	EXP 	Created na = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-5.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor='blue', lineColorSpace='named', lineRGB=array([   0.,    0.,  255.]), lineWidth=1, name='na', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.7062 	EXP 	Created nb = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-6.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor='blue', lineColorSpace='named', lineRGB=array([   0.,    0.,  255.]), lineWidth=1, name='nb', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.7114 	EXP 	Created nc = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-7.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor='blue', lineColorSpace='named', lineRGB=array([   0.,    0.,  255.]), lineWidth=1, name='nc', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.7134 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-55.,  20.],
+       [ 55.,  20.],
+       [ 55., -20.],
+       [-55., -20.]])
+7.7148 	EXP 	Created s1 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-8.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='s1', opacity=1.0, ori=array(0.0), pos=array([-110., -100.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.7152 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-55.,  20.],
+       [ 55.,  20.],
+       [ 55., -20.],
+       [-55., -20.]])
+7.7165 	EXP 	Created s2 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-9.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='s2', opacity=1.0, ori=array(0.0), pos=array([   0., -100.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+7.7169 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-55.,  20.],
+       [ 55.,  20.],
+       [ 55., -20.],
+       [-55., -20.]])
+7.7182 	EXP 	Created s3 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-10.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='s3', opacity=1.0, ori=array(0.0), pos=array([ 110., -100.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.1441 	EXP 	Created heart = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='heart.png', interpolate=True, mask=None, maskParams=None, name='heart', opacity=1.0, ori=0.0, pos=array([   0., -100.]), size=array([ 1.,  1.]), texRes=128, units='pix', win=Window(...))
+8.2314 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=40, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u"Let's take an example", units='pix', win=Window(...), wrapWidth=500)
+8.2372 	EXP 	Created nod1 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor='red', lineColorSpace='named', lineRGB=array([ 255.,    0.,    0.]), lineWidth=1, name='nod1', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2432 	EXP 	Created nod2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-3.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='nod2', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2495 	EXP 	Created nod3 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-4.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='nod3', opacity=1.0, ori=array(0.0), pos=array([ 135.,  115.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2563 	EXP 	Created nod4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-5.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='nod4', opacity=1.0, ori=array(0.0), pos=array([ 250.,  115.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2688 	EXP 	Created rob1 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='robot1.png', interpolate=True, mask=None, maskParams=None, name='rob1', opacity=1.0, ori=1.0, pos=array([  20., -115.]), size=array([ 100.,  100.]), texRes=128, units='pix', win=Window(...))
+8.2714 	EXP 	Created rob2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rob2', opacity=1.0, ori=0.0, pos=array([ 365.,  115.]), size=array([ 100.,  100.]), texRes=128, units='pix', win=Window(...))
+8.2718 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-0.5,  0.5],
+       [ 0.5,  0.5],
+       [ 0.5, -0.5],
+       [-0.5, -0.5]])
+8.2732 	EXP 	Created sh1 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-9.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='sh1', opacity=1.0, ori=array(0.0), pos=array([ 20.,   0.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2736 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-30.,  20.],
+       [ 30.,  20.],
+       [ 30., -20.],
+       [-30., -20.]])
+8.2749 	EXP 	Created sh2a = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-10.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='sh2a', opacity=1.0, ori=array(0.0), pos=array([  50.,  113.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2753 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-20.,  40.],
+       [ 20.,  40.],
+       [ 20., -40.],
+       [-20., -40.]])
+8.2766 	EXP 	Created sh2b = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-11.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='sh2b', opacity=1.0, ori=array(0.0), pos=array([ 22.,  93.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2770 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-55.,  20.],
+       [ 55.,  20.],
+       [ 55., -20.],
+       [-55., -20.]])
+8.2784 	EXP 	Created sh3 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-12.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='sh3', opacity=1.0, ori=array(0.0), pos=array([ 135.,  115.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.2788 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-55.,  20.],
+       [ 55.,  20.],
+       [ 55., -20.],
+       [-55., -20.]])
+8.2809 	EXP 	Created sh4 = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-13.0, fillColor='black', fillColorSpace='named', fillRGB=array([ 0.,  0.,  0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([ 0.,  0.,  0.]), lineWidth=1, name='sh4', opacity=1.0, ori=array(0.0), pos=array([ 250.,  115.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3009 	EXP 	Created star = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50, italic=False, name='star', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units='pix', win=Window(...), wrapWidth=500)
+8.3014 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10e10cb10>: vertices = array([[-400.,  450.],
+       [ 400.,  450.],
+       [ 400., -450.],
+       [-400., -450.]])
+8.3040 	EXP 	Created whitebackground = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='whitebackground', opacity=1.0, ori=array(0.0), pos=array([-560.,    0.]), size=array([ 1.,  1.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3203 	EXP 	Created robotS = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='robot1.png', interpolate=True, mask=None, maskParams=None, name='robotS', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 100.,  100.]), texRes=128, units='pix', win=Window(...))
+8.3270 	EXP 	Created node1 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-4.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='node1', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3342 	EXP 	Created node2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-5.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='node2', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3438 	EXP 	Created node3 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-6.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='node3', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3509 	EXP 	Created node4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-7.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='node4', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3573 	EXP 	Created node5 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-8.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='node5', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3698 	EXP 	Created robotF = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='robot1.png', interpolate=True, mask=None, maskParams=None, name='robotF', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 100.,  100.]), texRes=128, units='pix', win=Window(...))
+8.3758 	EXP 	Created select1 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-10.0, fillColor='red', fillColorSpace='named', fillRGB=array([ 255.,    0.,    0.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='select1', opacity=1.0, ori=array(0.0), pos=array([-630.,    0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3820 	EXP 	Created select2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-11.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='select2', opacity=1.0, ori=array(0.0), pos=array([-630., -120.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3909 	EXP 	Created select3 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-12.0, fillColor='yellow', fillColorSpace='named', fillRGB=array([ 255.,  255.,    0.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='select3', opacity=1.0, ori=array(0.0), pos=array([-630., -240.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.3968 	EXP 	Created select4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-13.0, fillColor='green', fillColorSpace='named', fillRGB=array([   0.,  128.,    0.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=0, name='select4', opacity=1.0, ori=array(0.0), pos=array([-630., -360.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.4281 	EXP 	Created selection = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='mastershapes.png', interpolate=True, mask=None, maskParams=None, name='selection', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 500.,  400.]), texRes=128, units='pix', win=Window(...))
+8.4736 	EXP 	Created sel = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='sel', opacity=1.0, ori=0, pos=array([-450.,  250.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='pix', win=Window(...), wrapWidth=500)
+8.4822 	EXP 	Created Evaluation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, name='Evaluation', opacity=1.0, ori=0, pos=array([   0.,  300.]), rgb=array([ 255.,  255.,  255.]), text=u'Is this pathway correct? \n', units='pix', win=Window(...), wrapWidth=500)
+8.4876 	EXP 	Created polygon = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor='red', fillColorSpace='named', fillRGB=array([ 255.,    0.,    0.]), interpolate=True, lineColor='red', lineColorSpace='named', lineRGB=array([ 255.,    0.,    0.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.0), pos=array([ 250.,    0.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.4937 	EXP 	Created polygon_2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-3.0, fillColor='green', fillColorSpace='named', fillRGB=array([   0.,  128.,    0.]), interpolate=True, lineColor='green', lineColorSpace='named', lineRGB=array([   0.,  128.,    0.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.0), pos=array([ 365., -115.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.4992 	EXP 	Created polygon_3 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-4.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor='blue', lineColorSpace='named', lineRGB=array([   0.,    0.,  255.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.0), pos=array([ 135., -115.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.5048 	EXP 	Created polygon_4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-5.0, fillColor='blue', fillColorSpace='named', fillRGB=array([   0.,    0.,  255.]), interpolate=True, lineColor='blue', lineColorSpace='named', lineRGB=array([   0.,    0.,  255.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.0), pos=array([ 250., -115.]), size=array([ 100.,  100.]), units='pix', vertices=ndarray(...), win=Window(...))
+8.5187 	EXP 	Created choice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50, italic=False, name='choice', opacity=1.0, ori=0, pos=array([   0., -300.]), rgb=array([ 255.,  255.,  255.]), text=u"Press 'y' for Yes  \nPress 'n' for No", units='pix', win=Window(...), wrapWidth=500)
+8.5284 	EXP 	Created thankyou = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=50, italic=False, name='thankyou', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Thank you for your participation.\n', units='pix', win=Window(...), wrapWidth=500)
+8.5487 	EXP 	instruct: pos = array([   0.,  150.])
+8.5487 	EXP 	na: pos = array([-110., -100.])
+8.5487 	EXP 	na: size = array([ 100.,  100.])
+8.5487 	EXP 	nb: pos = array([   0., -100.])
+8.5487 	EXP 	nb: size = array([ 100.,  100.])
+8.5487 	EXP 	nc: pos = array([ 110., -100.])
+8.5487 	EXP 	nc: size = array([ 100.,  100.])
+8.5487 	EXP 	welcome: autoDraw = True
+11.5491 	EXP 	welcome: autoDraw = False
+11.5491 	EXP 	instruct: autoDraw = True
+14.5495 	EXP 	rob0: autoDraw = True
+14.5495 	EXP 	robb: autoDraw = True
+15.0495 	EXP 	na: autoDraw = True
+15.5493 	EXP 	nb: autoDraw = True
+16.0494 	EXP 	nc: autoDraw = True
+17.0495 	EXP 	s1: autoDraw = True
+18.0495 	EXP 	s2: autoDraw = True
+19.0498 	EXP 	s3: autoDraw = True
+22.5335 	EXP 	na: autoDraw = False
+22.5335 	EXP 	nb: autoDraw = False
+22.5335 	EXP 	nc: autoDraw = False
+22.5335 	EXP 	s1: autoDraw = False
+22.5335 	EXP 	s2: autoDraw = False
+22.5335 	EXP 	s3: autoDraw = False
+22.5501 	EXP 	heart: autoDraw = True
+26.5506 	EXP 	instruct: autoDraw = False
+26.5506 	EXP 	rob0: autoDraw = False
+26.5506 	EXP 	robb: autoDraw = False
+26.5506 	EXP 	heart: autoDraw = False
+26.5506 	EXP 	welcome: autoDraw = False
+26.5506 	EXP 	instruct: autoDraw = False
+26.5506 	EXP 	rob0: autoDraw = False
+26.5506 	EXP 	robb: autoDraw = False
+26.5506 	EXP 	na: autoDraw = False
+26.5506 	EXP 	nb: autoDraw = False
+26.5506 	EXP 	nc: autoDraw = False
+26.5506 	EXP 	s1: autoDraw = False
+26.5506 	EXP 	s2: autoDraw = False
+26.5506 	EXP 	s3: autoDraw = False
+26.5506 	EXP 	heart: autoDraw = False
+26.5506 	EXP 	text_2: pos = array([-300.,  300.])
+26.5506 	EXP 	nod1: fillColor = 'red (named)'
+26.5506 	EXP 	nod1: pos = array([ 20.,   0.])
+26.5506 	EXP 	nod2: fillColor = 'yellow (named)'
+26.5506 	EXP 	nod2: pos = array([  20.,  115.])
+26.5506 	EXP 	nod2: lineColor = 'yellow (named)'
+26.5506 	EXP 	nod3: fillColor = 'blue (named)'
+26.5506 	EXP 	nod3: lineColor = 'blue (named)'
+26.5506 	EXP 	nod4: fillColor = 'blue (named)'
+26.5506 	EXP 	nod4: lineColor = 'blue (named)'
+26.5506 	EXP 	rob1: ori = 0.0
+26.5506 	EXP 	rob2: image = 'robot1.png'
+26.5506 	EXP 	sh1: size = array([  40.,  110.])
+26.5506 	EXP 	text_2: autoDraw = True
+26.5506 	EXP 	nod1: autoDraw = True
+26.5506 	EXP 	nod2: autoDraw = True
+26.5506 	EXP 	nod3: autoDraw = True
+26.5506 	EXP 	nod4: autoDraw = True
+26.5506 	EXP 	rob1: autoDraw = True
+26.5506 	EXP 	rob2: autoDraw = True
+28.5508 	EXP 	sh1: autoDraw = True
+29.0508 	EXP 	sh2a: autoDraw = True
+29.0508 	EXP 	sh2b: autoDraw = True
+29.5508 	EXP 	sh3: autoDraw = True
+30.0508 	EXP 	sh4: autoDraw = True
+33.6815 	DATA 	Keypress: space
+33.7178 	EXP 	text_2: autoDraw = False
+33.7178 	EXP 	nod1: autoDraw = False
+33.7178 	EXP 	nod2: autoDraw = False
+33.7178 	EXP 	nod3: autoDraw = False
+33.7178 	EXP 	nod4: autoDraw = False
+33.7178 	EXP 	rob1: autoDraw = False
+33.7178 	EXP 	rob2: autoDraw = False
+33.7178 	EXP 	sh1: autoDraw = False
+33.7178 	EXP 	sh2a: autoDraw = False
+33.7178 	EXP 	sh2b: autoDraw = False
+33.7178 	EXP 	sh3: autoDraw = False
+33.7178 	EXP 	sh4: autoDraw = False
+33.7178 	EXP 	star: autoDraw = True
+34.2215 	DATA 	Keypress: space
+34.2350 	EXP 	Imported designs.xlsx as conditions, 4 conditions, 17 params
+34.2354 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+34.2362 	EXP 	New trial (rep=0, index=0): {u'n2col': u'blue', u'n4col': u'red', u'n3col': u'green', u'corrAns': u'a', u'r4': u'd', u'n1col': u'blue', u'r1': u'a', u'r2': u'b', u'rs': u'LOC21', u'r3': u'c', u're': u'LOC9', u'n5col': u'red', u'n1': u'LOC22', u'n2': u'LOC23', u'n3': u'LOC24', u'n4': u'LOC19', u'n5': u'LOC14'}
+34.2512 	EXP 	star: autoDraw = False
+34.2512 	EXP 	robotS: pos = array([  20., -230.])
+34.2512 	EXP 	node1: fillColor = u'blue (named)'
+34.2512 	EXP 	node1: pos = array([ 135., -230.])
+34.2512 	EXP 	node2: fillColor = u'blue (named)'
+34.2512 	EXP 	node2: pos = array([ 250., -230.])
+34.2512 	EXP 	node3: fillColor = u'green (named)'
+34.2512 	EXP 	node3: pos = array([ 365., -230.])
+34.2512 	EXP 	node4: fillColor = u'red (named)'
+34.2512 	EXP 	node4: pos = array([ 365., -115.])
+34.2512 	EXP 	node5: fillColor = u'red (named)'
+34.2512 	EXP 	node5: pos = array([ 365.,    0.])
+34.2512 	EXP 	robotF: pos = array([ 365.,  115.])
+34.2512 	EXP 	whitebackground: autoDraw = True
+34.2512 	EXP 	robotS: autoDraw = True
+34.2512 	EXP 	node1: autoDraw = True
+34.2512 	EXP 	node2: autoDraw = True
+34.2512 	EXP 	node3: autoDraw = True
+34.2512 	EXP 	node4: autoDraw = True
+34.2512 	EXP 	node5: autoDraw = True
+34.2512 	EXP 	robotF: autoDraw = True
+34.2512 	EXP 	select1: autoDraw = True
+34.2512 	EXP 	select2: autoDraw = True
+34.2512 	EXP 	select3: autoDraw = True
+34.2512 	EXP 	select4: autoDraw = True
+34.2512 	EXP 	selection: autoDraw = True
+34.2512 	EXP 	sel: autoDraw = True
+35.2590 	DATA 	Keypress: a
+35.4553 	DATA 	Keypress: a
+35.6427 	DATA 	Keypress: a
+35.9880 	DATA 	Keypress: a
+35.9906 	EXP 	New trial (rep=0, index=1): {u'n2col': u'yellow', u'n4col': u'green', u'n3col': u'blue', u'corrAns': u'b', u'r4': u'd', u'n1col': u'red', u'r1': u'a', u'r2': u'b', u'rs': u'LOC21', u'r3': u'c', u're': u'LOC3', u'n5col': u'red', u'n1': u'LOC16', u'n2': u'LOC11', u'n3': u'LOC12', u'n4': u'LOC13', u'n5': u'LOC8'}
+36.0181 	EXP 	whitebackground: autoDraw = False
+36.0181 	EXP 	robotS: autoDraw = False
+36.0181 	EXP 	node1: autoDraw = False
+36.0181 	EXP 	node2: autoDraw = False
+36.0181 	EXP 	node3: autoDraw = False
+36.0181 	EXP 	node4: autoDraw = False
+36.0181 	EXP 	node5: autoDraw = False
+36.0181 	EXP 	robotF: autoDraw = False
+36.0181 	EXP 	select1: autoDraw = False
+36.0181 	EXP 	select2: autoDraw = False
+36.0181 	EXP 	select3: autoDraw = False
+36.0181 	EXP 	select4: autoDraw = False
+36.0181 	EXP 	selection: autoDraw = False
+36.0181 	EXP 	sel: autoDraw = False
+36.0181 	EXP 	robotS: pos = array([  20., -230.])
+36.0181 	EXP 	node1: fillColor = u'red (named)'
+36.0181 	EXP 	node1: pos = array([  20., -115.])
+36.0181 	EXP 	node2: fillColor = u'yellow (named)'
+36.0181 	EXP 	node2: pos = array([ 20.,   0.])
+36.0181 	EXP 	node3: fillColor = u'blue (named)'
+36.0181 	EXP 	node3: pos = array([ 135.,    0.])
+36.0181 	EXP 	node4: fillColor = u'green (named)'
+36.0181 	EXP 	node4: pos = array([ 250.,    0.])
+36.0181 	EXP 	node5: fillColor = u'red (named)'
+36.0181 	EXP 	node5: pos = array([ 250.,  115.])
+36.0181 	EXP 	robotF: pos = array([ 250.,  230.])
+36.0181 	EXP 	whitebackground: autoDraw = True
+36.0181 	EXP 	robotS: autoDraw = True
+36.0181 	EXP 	node1: autoDraw = True
+36.0181 	EXP 	node2: autoDraw = True
+36.0181 	EXP 	node3: autoDraw = True
+36.0181 	EXP 	node4: autoDraw = True
+36.0181 	EXP 	node5: autoDraw = True
+36.0181 	EXP 	robotF: autoDraw = True
+36.0181 	EXP 	select1: autoDraw = True
+36.0181 	EXP 	select2: autoDraw = True
+36.0181 	EXP 	select3: autoDraw = True
+36.0181 	EXP 	select4: autoDraw = True
+36.0181 	EXP 	selection: autoDraw = True
+36.0181 	EXP 	sel: autoDraw = True
+36.2876 	DATA 	Keypress: a
+36.5041 	DATA 	Keypress: a
+36.9046 	DATA 	Keypress: a
+37.3038 	DATA 	Keypress: a
+37.3057 	EXP 	New trial (rep=0, index=2): {u'n2col': u'red', u'n4col': u'blue', u'n3col': u'yellow', u'corrAns': u'c', u'r4': u'd', u'n1col': u'red', u'r1': u'a', u'r2': u'b', u'rs': u'LOC22', u'r3': u'c', u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC7', u'n4': u'LOC8', u'n5': u'LOC9'}
+37.3182 	EXP 	whitebackground: autoDraw = False
+37.3182 	EXP 	robotS: autoDraw = False
+37.3182 	EXP 	node1: autoDraw = False
+37.3182 	EXP 	node2: autoDraw = False
+37.3182 	EXP 	node3: autoDraw = False
+37.3182 	EXP 	node4: autoDraw = False
+37.3182 	EXP 	node5: autoDraw = False
+37.3182 	EXP 	robotF: autoDraw = False
+37.3182 	EXP 	select1: autoDraw = False
+37.3182 	EXP 	select2: autoDraw = False
+37.3182 	EXP 	select3: autoDraw = False
+37.3182 	EXP 	select4: autoDraw = False
+37.3182 	EXP 	selection: autoDraw = False
+37.3182 	EXP 	sel: autoDraw = False
+37.3182 	EXP 	robotS: pos = array([ 135., -230.])
+37.3182 	EXP 	node1: fillColor = u'red (named)'
+37.3182 	EXP 	node1: pos = array([ 135., -115.])
+37.3182 	EXP 	node2: fillColor = u'red (named)'
+37.3182 	EXP 	node2: pos = array([ 135.,    0.])
+37.3182 	EXP 	node3: fillColor = u'yellow (named)'
+37.3182 	EXP 	node3: pos = array([ 135.,  115.])
+37.3182 	EXP 	node4: fillColor = u'blue (named)'
+37.3182 	EXP 	node4: pos = array([ 250.,  115.])
+37.3182 	EXP 	node5: fillColor = u'blue (named)'
+37.3182 	EXP 	node5: pos = array([ 365.,  115.])
+37.3182 	EXP 	robotF: pos = array([ 480.,  115.])
+37.3182 	EXP 	whitebackground: autoDraw = True
+37.3182 	EXP 	robotS: autoDraw = True
+37.3182 	EXP 	node1: autoDraw = True
+37.3182 	EXP 	node2: autoDraw = True
+37.3182 	EXP 	node3: autoDraw = True
+37.3182 	EXP 	node4: autoDraw = True
+37.3182 	EXP 	node5: autoDraw = True
+37.3182 	EXP 	robotF: autoDraw = True
+37.3182 	EXP 	select1: autoDraw = True
+37.3182 	EXP 	select2: autoDraw = True
+37.3182 	EXP 	select3: autoDraw = True
+37.3182 	EXP 	select4: autoDraw = True
+37.3182 	EXP 	selection: autoDraw = True
+37.3182 	EXP 	sel: autoDraw = True
+37.6255 	DATA 	Keypress: a
+38.0551 	DATA 	Keypress: a
+38.6877 	DATA 	Keypress: a
+40.3736 	DATA 	Keypress: a
+40.3877 	EXP 	New trial (rep=0, index=3): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'd', u'r4': u'd', u'n1col': u'green', u'r1': u'a', u'r2': u'b', u'rs': u'LOC16', u'r3': u'c', u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+40.4019 	EXP 	whitebackground: autoDraw = False
+40.4019 	EXP 	robotS: autoDraw = False
+40.4019 	EXP 	node1: autoDraw = False
+40.4019 	EXP 	node2: autoDraw = False
+40.4019 	EXP 	node3: autoDraw = False
+40.4019 	EXP 	node4: autoDraw = False
+40.4019 	EXP 	node5: autoDraw = False
+40.4019 	EXP 	robotF: autoDraw = False
+40.4019 	EXP 	select1: autoDraw = False
+40.4019 	EXP 	select2: autoDraw = False
+40.4019 	EXP 	select3: autoDraw = False
+40.4019 	EXP 	select4: autoDraw = False
+40.4019 	EXP 	selection: autoDraw = False
+40.4019 	EXP 	sel: autoDraw = False
+40.4019 	EXP 	robotS: pos = array([  20., -115.])
+40.4019 	EXP 	node1: fillColor = u'green (named)'
+40.4019 	EXP 	node1: pos = array([ 135., -115.])
+40.4019 	EXP 	node2: fillColor = u'yellow (named)'
+40.4019 	EXP 	node2: pos = array([ 135.,    0.])
+40.4019 	EXP 	node3: fillColor = u'green (named)'
+40.4019 	EXP 	node3: pos = array([ 250.,    0.])
+40.4019 	EXP 	node4: fillColor = u'yellow (named)'
+40.4019 	EXP 	node4: pos = array([ 250.,  115.])
+40.4019 	EXP 	node5: fillColor = u'blue (named)'
+40.4019 	EXP 	node5: pos = array([ 365.,  115.])
+40.4019 	EXP 	robotF: pos = array([ 480.,  115.])
+40.4019 	EXP 	whitebackground: autoDraw = True
+40.4019 	EXP 	robotS: autoDraw = True
+40.4019 	EXP 	node1: autoDraw = True
+40.4019 	EXP 	node2: autoDraw = True
+40.4019 	EXP 	node3: autoDraw = True
+40.4019 	EXP 	node4: autoDraw = True
+40.4019 	EXP 	node5: autoDraw = True
+40.4019 	EXP 	robotF: autoDraw = True
+40.4019 	EXP 	select1: autoDraw = True
+40.4019 	EXP 	select2: autoDraw = True
+40.4019 	EXP 	select3: autoDraw = True
+40.4019 	EXP 	select4: autoDraw = True
+40.4019 	EXP 	selection: autoDraw = True
+40.4019 	EXP 	sel: autoDraw = True
+41.6224 	DATA 	Keypress: a
+42.0728 	DATA 	Keypress: a
+42.5229 	DATA 	Keypress: a
+43.0048 	DATA 	Keypress: a
+43.0235 	EXP 	Imported designs1.xlsx as conditions, 2 conditions, 17 params
+43.0239 	EXP 	Created sequence: sequential, trialTypes=2, nReps=5, seed=None
+43.0247 	EXP 	New trial (rep=0, index=0): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'y', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+43.0355 	EXP 	whitebackground: autoDraw = False
+43.0355 	EXP 	robotS: autoDraw = False
+43.0355 	EXP 	node1: autoDraw = False
+43.0355 	EXP 	node2: autoDraw = False
+43.0355 	EXP 	node3: autoDraw = False
+43.0355 	EXP 	node4: autoDraw = False
+43.0355 	EXP 	node5: autoDraw = False
+43.0355 	EXP 	robotF: autoDraw = False
+43.0355 	EXP 	select1: autoDraw = False
+43.0355 	EXP 	select2: autoDraw = False
+43.0355 	EXP 	select3: autoDraw = False
+43.0355 	EXP 	select4: autoDraw = False
+43.0355 	EXP 	selection: autoDraw = False
+43.0355 	EXP 	sel: autoDraw = False
+43.0355 	EXP 	Evaluation: autoDraw = True
+43.0355 	EXP 	polygon: autoDraw = True
+43.0355 	EXP 	polygon_2: autoDraw = True
+43.0355 	EXP 	polygon_3: autoDraw = True
+43.0355 	EXP 	polygon_4: autoDraw = True
+43.0355 	EXP 	choice: autoDraw = True
+46.0358 	EXP 	choice: autoDraw = False
+47.0359 	EXP 	polygon_4: autoDraw = False
+48.0361 	EXP 	Evaluation: autoDraw = False
+48.0361 	EXP 	polygon: autoDraw = False
+48.0361 	EXP 	polygon_2: autoDraw = False
+48.0361 	EXP 	polygon_3: autoDraw = False
+53.3587 	DATA 	Keypress: y
+53.3730 	EXP 	New trial (rep=0, index=1): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'n', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+53.3871 	EXP 	Evaluation: autoDraw = False
+53.3871 	EXP 	polygon: autoDraw = False
+53.3871 	EXP 	polygon_2: autoDraw = False
+53.3871 	EXP 	polygon_3: autoDraw = False
+53.3871 	EXP 	polygon_4: autoDraw = False
+53.3871 	EXP 	choice: autoDraw = False
+53.3871 	EXP 	Evaluation: autoDraw = True
+53.3871 	EXP 	polygon: autoDraw = True
+53.3871 	EXP 	polygon_2: autoDraw = True
+53.3871 	EXP 	polygon_3: autoDraw = True
+53.3871 	EXP 	polygon_4: autoDraw = True
+53.3871 	EXP 	choice: autoDraw = True
+56.3875 	EXP 	choice: autoDraw = False
+57.3875 	EXP 	polygon_4: autoDraw = False
+58.3235 	DATA 	Keypress: n
+58.3251 	EXP 	New trial (rep=1, index=0): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'y', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+58.3371 	EXP 	Evaluation: autoDraw = False
+58.3371 	EXP 	polygon: autoDraw = False
+58.3371 	EXP 	polygon_2: autoDraw = False
+58.3371 	EXP 	polygon_3: autoDraw = False
+58.3371 	EXP 	polygon_4: autoDraw = False
+58.3371 	EXP 	choice: autoDraw = False
+58.3371 	EXP 	Evaluation: autoDraw = True
+58.3371 	EXP 	polygon: autoDraw = True
+58.3371 	EXP 	polygon_2: autoDraw = True
+58.3371 	EXP 	polygon_3: autoDraw = True
+58.3371 	EXP 	polygon_4: autoDraw = True
+58.3371 	EXP 	choice: autoDraw = True
+59.6744 	DATA 	Keypress: n
+59.6765 	EXP 	New trial (rep=1, index=1): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'n', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+59.6879 	EXP 	Evaluation: autoDraw = False
+59.6879 	EXP 	polygon: autoDraw = False
+59.6879 	EXP 	polygon_2: autoDraw = False
+59.6879 	EXP 	polygon_3: autoDraw = False
+59.6879 	EXP 	polygon_4: autoDraw = False
+59.6879 	EXP 	choice: autoDraw = False
+59.6879 	EXP 	Evaluation: autoDraw = True
+59.6879 	EXP 	polygon: autoDraw = True
+59.6879 	EXP 	polygon_2: autoDraw = True
+59.6879 	EXP 	polygon_3: autoDraw = True
+59.6879 	EXP 	polygon_4: autoDraw = True
+59.6879 	EXP 	choice: autoDraw = True
+62.4109 	DATA 	Keypress: y
+62.4235 	EXP 	New trial (rep=2, index=0): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'y', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+62.4382 	EXP 	Evaluation: autoDraw = False
+62.4382 	EXP 	polygon: autoDraw = False
+62.4382 	EXP 	polygon_2: autoDraw = False
+62.4382 	EXP 	polygon_3: autoDraw = False
+62.4382 	EXP 	polygon_4: autoDraw = False
+62.4382 	EXP 	choice: autoDraw = False
+62.4382 	EXP 	Evaluation: autoDraw = True
+62.4382 	EXP 	polygon: autoDraw = True
+62.4382 	EXP 	polygon_2: autoDraw = True
+62.4382 	EXP 	polygon_3: autoDraw = True
+62.4382 	EXP 	polygon_4: autoDraw = True
+62.4382 	EXP 	choice: autoDraw = True
+65.4385 	EXP 	choice: autoDraw = False
+66.4386 	EXP 	polygon_4: autoDraw = False
+67.4387 	EXP 	Evaluation: autoDraw = False
+67.4387 	EXP 	polygon: autoDraw = False
+67.4387 	EXP 	polygon_2: autoDraw = False
+67.4387 	EXP 	polygon_3: autoDraw = False
+69.8096 	DATA 	Keypress: y
+69.8243 	EXP 	New trial (rep=2, index=1): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'n', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+69.8390 	EXP 	Evaluation: autoDraw = False
+69.8390 	EXP 	polygon: autoDraw = False
+69.8390 	EXP 	polygon_2: autoDraw = False
+69.8390 	EXP 	polygon_3: autoDraw = False
+69.8390 	EXP 	polygon_4: autoDraw = False
+69.8390 	EXP 	choice: autoDraw = False
+69.8390 	EXP 	Evaluation: autoDraw = True
+69.8390 	EXP 	polygon: autoDraw = True
+69.8390 	EXP 	polygon_2: autoDraw = True
+69.8390 	EXP 	polygon_3: autoDraw = True
+69.8390 	EXP 	polygon_4: autoDraw = True
+69.8390 	EXP 	choice: autoDraw = True
+72.8393 	EXP 	choice: autoDraw = False
+73.8394 	EXP 	polygon_4: autoDraw = False
+74.3264 	DATA 	Keypress: n
+74.3285 	EXP 	New trial (rep=3, index=0): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'y', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+74.3395 	EXP 	Evaluation: autoDraw = False
+74.3395 	EXP 	polygon: autoDraw = False
+74.3395 	EXP 	polygon_2: autoDraw = False
+74.3395 	EXP 	polygon_3: autoDraw = False
+74.3395 	EXP 	polygon_4: autoDraw = False
+74.3395 	EXP 	choice: autoDraw = False
+74.3395 	EXP 	Evaluation: autoDraw = True
+74.3395 	EXP 	polygon: autoDraw = True
+74.3395 	EXP 	polygon_2: autoDraw = True
+74.3395 	EXP 	polygon_3: autoDraw = True
+74.3395 	EXP 	polygon_4: autoDraw = True
+74.3395 	EXP 	choice: autoDraw = True
+75.2263 	DATA 	Keypress: n
+75.2283 	EXP 	New trial (rep=3, index=1): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'n', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+75.2395 	EXP 	Evaluation: autoDraw = False
+75.2395 	EXP 	polygon: autoDraw = False
+75.2395 	EXP 	polygon_2: autoDraw = False
+75.2395 	EXP 	polygon_3: autoDraw = False
+75.2395 	EXP 	polygon_4: autoDraw = False
+75.2395 	EXP 	choice: autoDraw = False
+75.2395 	EXP 	Evaluation: autoDraw = True
+75.2395 	EXP 	polygon: autoDraw = True
+75.2395 	EXP 	polygon_2: autoDraw = True
+75.2395 	EXP 	polygon_3: autoDraw = True
+75.2395 	EXP 	polygon_4: autoDraw = True
+75.2395 	EXP 	choice: autoDraw = True
+76.9292 	DATA 	Keypress: y
+76.9404 	EXP 	New trial (rep=4, index=0): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'y', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+76.9556 	EXP 	Evaluation: autoDraw = False
+76.9556 	EXP 	polygon: autoDraw = False
+76.9556 	EXP 	polygon_2: autoDraw = False
+76.9556 	EXP 	polygon_3: autoDraw = False
+76.9556 	EXP 	polygon_4: autoDraw = False
+76.9556 	EXP 	choice: autoDraw = False
+76.9556 	EXP 	Evaluation: autoDraw = True
+76.9556 	EXP 	polygon: autoDraw = True
+76.9556 	EXP 	polygon_2: autoDraw = True
+76.9556 	EXP 	polygon_3: autoDraw = True
+76.9556 	EXP 	polygon_4: autoDraw = True
+76.9556 	EXP 	choice: autoDraw = True
+79.9566 	EXP 	choice: autoDraw = False
+80.9567 	EXP 	polygon_4: autoDraw = False
+81.9569 	EXP 	Evaluation: autoDraw = False
+81.9569 	EXP 	polygon: autoDraw = False
+81.9569 	EXP 	polygon_2: autoDraw = False
+81.9569 	EXP 	polygon_3: autoDraw = False
+87.3111 	DATA 	Keypress: n
+87.3131 	EXP 	New trial (rep=4, index=1): {u'n2col': u'yellow', u'n4col': u'yellow', u'n3col': u'green', u'corrAns': u'n', u'r4': None, u'n1col': u'green', u'r1': None, u'r2': None, u'rs': u'LOC16', u'r3': None, u're': u'LOC10', u'n5col': u'blue', u'n1': u'LOC17', u'n2': u'LOC12', u'n3': u'LOC13', u'n4': u'LOC8', u'n5': u'LOC9'}
+87.3238 	EXP 	Evaluation: autoDraw = False
+87.3238 	EXP 	polygon: autoDraw = False
+87.3238 	EXP 	polygon_2: autoDraw = False
+87.3238 	EXP 	polygon_3: autoDraw = False
+87.3238 	EXP 	polygon_4: autoDraw = False
+87.3238 	EXP 	choice: autoDraw = False
+87.3238 	EXP 	Evaluation: autoDraw = True
+87.3238 	EXP 	polygon: autoDraw = True
+87.3238 	EXP 	polygon_2: autoDraw = True
+87.3238 	EXP 	polygon_3: autoDraw = True
+87.3238 	EXP 	polygon_4: autoDraw = True
+87.3238 	EXP 	choice: autoDraw = True
+90.3245 	EXP 	choice: autoDraw = False
+91.1358 	DATA 	Keypress: escape
